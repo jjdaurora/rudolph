@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>hey there</title>
+	<!-- custom css -->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<!-- google fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Bungee|Source+Code+Pro" rel="stylesheet">
+	<!-- pretty checkboxes -->
+	<link rel="stylesheet" type="text/css" href="node_modules/pretty-checkbox/dist/pretty-checkbox.min.css">
+	<!-- emojis -->
+	<link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+	<!-- font awesome -->
+	<script defer src="https://use.fontawesome.com/releases/v5.0.1/js/all.js"></script>
+</head>
+
+<body>
+
+	<header id="hello-section">
+		
+		<div class="container">
+			<h1>hey</h1>
+			<p>you're probably wondering what this is...</p>
+			<button type="button" id="hello-button">Click to find out</button>
+		</div>
+
+	</header>
+	
+	<section id="about-section">
+		
+		<div class="container">
+			<h2>A timeline of the past 8 months</h2>
+			<p>click on the text below to learn more</p>
+			<table class="table">
+				<tr>
+				    <th>April</th>
+				    <th>May</th>
+				    <th>June</th>
+				    <th>July</th>
+				    <th>August</th>
+		    	</tr>
+		    	<tr>
+					<td><a href="#open-modal-april">a date over manhattans</a></td>
+						<div id="open-modal-april" class="modal-window">
+							<div class="modal-display">
+								<a href="#modal-close" title="Close" class="modal-close">X</a>
+								<h1>Welcome to the relationship!</h1>
+								<div>On April 1st, 2017, JJ &amp; Audra had their first date. <br/>
+									 Here is exactly what occured:<br/>
+									<ul>
+										<li>JJ impressed Audra with his remarkable Manhattan making skills and penchant for flirtatious chatter.</li>
+										<li>Audra, unable to resist the clear romantic compatibility, laughed at ALL of JJ's jokes.</li>
+										<li>Audra had such a good time, she decided to give JJ another date.</li>
+									</ul>
+
+									<p>....and the rest is history. The two love birds are now in a committed relationship and couldn't be having a better time. JJ is so lucky to have Audra. But, sometimes when Audra tells others about dating JJ, people are like... </p>
+									
+								</div>
+								<iframe src="https://giphy.com/embed/lYKvaJ8EQTzCU" width="300" height="250" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+							</div>
+						</div>
+					<td><a href="#open-modal-may">menagois a tois (the breakfast, silly!)</a></td>
+						<div id="open-modal-may" class="modal-window">
+							<div class="modal-display">
+								<a href="#modal-close" title="Close" class="modal-close">X</a>
+								<h1>Breakfast. Our favorite.</h1>
+								<div>Look at that dime piece and her cinnamon coffee!
+									<br/>
+									<br/>
+									<img src="assets/images/may/latitude-41.jpg" width="250" height="300" />
+								</div>
+							</div>
+						</div>
+					<td><a href="#open-modal-june">"we're girlfriends"</a></td>
+						<div id="open-modal-june" class="modal-window">
+							<div class="modal-display">
+								<a href="#modal-close" title="Close" class="modal-close">X</a>
+								<!-- Slideshow container -->
+								<div class="slideshow-container">
+
+									<!-- Full-width images with number and caption text -->
+
+									<div class="mySlides fade">
+										<div class="numbertext">1 / 4</div>
+										<img src="assets/images/toronto/toronto.jpg" style="width:100%">
+										<div class="slideshow-text slideshow-text-black">remember when we went to toronto?</div>
+									</div>
+
+									<div class="mySlides fade">
+										<div class="numbertext">2 / 4</div>
+										<img src="assets/images/toronto/noodles.jpg" style="width:100%">
+										<div class="slideshow-text slideshow-text-black">...and you ate these noodles?</div>
+									</div>
+										
+									<div class="mySlides fade">
+										<div class="numbertext">3 / 4</div>
+										<img src="assets/images/toronto/beer.jpg" style="width:100%"/>
+										<div class="slideshow-text">...and drank this beer?</div>
+									</div>
+
+									<div class="mySlides fade">
+										<div class="numbertext">4 / 4</div>
+										<img src="assets/images/toronto/coffeeshop.jpg" style="width:100%"/>
+										<div class="slideshow-text">"we're girlfriends..."</div>
+									</div>
+
+									<!-- Next and previous buttons -->
+									<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+									<a class="next" onclick="plusSlides(1)">&#10095;</a>
+								</div>
+								<br>
+
+								<!-- The dots/circles -->
+								<div style="text-align:center">
+									<span class="dot" onclick="currentSlide(1)"></span>
+									<span class="dot" onclick="currentSlide(2)"></span>
+									<span class="dot" onclick="currentSlide(3)"></span>
+									<span class="dot" onclick="currentSlide(4)"></span>
+								</div>
+							</div>
+						</div>	
+					<td><a href="#open-modal-july">it's starting to get hot...</a></td>
+						<div id="open-modal-july" class="modal-window">
+							<div class="modal-display">
+								<a href="#modal-close" title="Close" class="modal-close">X</a>
+								<h1>...because the oven is on and it's like 90 degress in hurrr!</h1>
+									<div>
+										<i class="em em-dizzy_face"></i>
+									</div>
+							</div>
+						</div>
+					<td><a href="#open-modal-august">Nashville</a></td>
+						<div id="open-modal-august" class="modal-window">
+							<div class="modal-display">
+								<a href="#modal-close" title="Close" class="modal-close">X</a>
+								<h1>Sorry we didn't see the Grand Ole Opry...</h1>
+								<div>...but we will just have to go back!
+									<br/>
+									<br/>
+									<img src="assets/images/august/audra-in-nashville.jpg" height="300" width="250"/>
+									<p>look how pretty though!</p>
+								</div>
+							</div>
+						</div>	
+		    	</tr>
+			</table>
+
+			<table class="table">
+				<tr>
+				    <th>September</th>
+				    <th>October</th>
+				    <th>November</th>
+				    <th>December</th>
+		    	</tr>
+
+		    	<tr>
+		    		<td></td>
+		    		<td></td>
+		    		<td></td>
+		    		<td></td>
+		    	
+		    	</tr>
+			</table>
+			
+			<p>Ummmm....okay, but I still don't get it.</p>
+			<button type="button" id="hello-button">Okay, just keep clicking!</button>
+		</div>
+	
+	</section>
+	
+	<section id="things-section">
+		<div class="container">
+			<div class="item1">things I love about Audra
+			</div>
+			<div class="item2">
+				<img src="assets/images/poop-emoji.png" alt="Poop Emoji"/>
+				 <div class="pretty p-default p-curve p-thick p-pulse">
+			        <input type="checkbox"/>
+			        <div class="state p-primary-o">
+			            <label>poop fascination</label>
+			        </div>
+		   		 </div>
+			</div>
+			<div class="item3">
+				<img src="https://media.giphy.com/media/MTap5M6WOWzVm/giphy.gif" alt="Gray's Anatomy GIF"/>
+				<div class="pretty p-default p-curve p-thick p-pulse">
+			        <input type="checkbox"/>
+			        <div class="state p-primary-o">
+			            <label>love for bad shows</label>
+			        </div>
+		   		 </div>
+			</div>
+			<div class="item4">
+				<img src="assets/images/exercise.png" alt="Exercise Icon"/>
+				<div class="pretty p-default p-curve p-thick p-pulse">
+			        <input type="checkbox"/>
+			        <div class="state p-primary-o">
+			            <label>gets that work out on</label>
+			        </div>
+		   		 </div>
+			</div>
+			<div class="item5"><i class="fas fa-coffee fa-4x"></i>
+				<div class="pretty p-default p-curve p-thick p-pulse">
+					<input type="checkbox" />
+					<div class="state p-primary-o">
+						<label>gets that work out on</label>
+					</div>
+				</div>
+			</div>
+			<div class="item6">
+				<div class="pretty p-default p-curve p-thick p-pulse">
+					<input type="checkbox" />
+					<div class="state p-primary-o">
+						<label>always listens and considers others</label>
+					</div>
+				</div>
+			</div>
+			<div class="item7">
+				<div class="pretty p-default p-curve p-thick p-pulse">
+					<input type="checkbox" />
+					<div class="state p-primary-o">
+						<label>puts up with this guy</label>
+					</div>
+				</div>
+			</div>
+		</div>		
+	</section>
+
+	<section id="year-ahead-section">
+		<h2>2018 Plans</h2>
+
+	</section>
+
+	<section id="conclusion-section">
+		<!-- images here -->
+
+	</section>
+
+	<script type="text/javascript" src="assets/js/app.js"></script>
+</body>
+
+</html>
